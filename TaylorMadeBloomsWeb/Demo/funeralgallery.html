@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Taylor Made Blooms</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+
+        <!-- bxSlider CSS file -->
+        <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+        <link rel="stylesheet" href="assets/css/additional.css" />
+        <meta name="description" content="Manchester Wedding Florist, Weddings and Funeral Flowers in Manchester ">
+        <meta name="keywords" content="Manchester Wedding Florist,Manchester,Wedding,Funerals,Florist,Flowers, ">
+        <meta name="author" content="Helen Taylor">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+	</head>
+	<body>
+
+		<!-- Header -->
+            <section id="header">   
+				<header>
+					<span class="image avatar"><img src="images/helen.jpg" alt="Florist" /></span>
+					<h1 id="logo"><a href="#">Helen Taylor</a></h1>
+					<p>An independent freelance florist based in South Manchester.<br /> Specialising in Wedding and Event floral Designs</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+                        <li><a href="biog.html" >Biography</a></li>
+                        <li><a href="weddings.html" >Weddings</a></li>
+                        <li><a href="funerals.html" class="active">Funerals and Sympathy</a></li>
+                        <li><a href="events.html" >Occassions</a></li>
+                        <li><a href="testimonials.html" >Testimonials</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<!--li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li-->
+						<li><a target="_blank" href="https://www.facebook.com/taylormadeblooms/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a target="_blank" href="https://www.instagram.com/taylormadeblooms/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="mailto:helen@taylormadeblooms.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                        <li onclick="shownumber()"><a id="MobileIcon" href="#" class="icon fa-mobile" ><span class="label" >contact</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="container">
+									<header class="major" >
+										<h2 style="font-family: blooms;">Funerals and Sympathy</h2>
+									</header>
+
+                                        <div >            
+                                        <ul id="content" class="bxslider" >
+                                        </ul>
+                                    </div>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; taylormadeblooms.com 2016</li>
+							</ul>
+                            <ul class="icons">
+						        <!--li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li-->
+						        <li><a target="_blank" href="https://www.facebook.com/taylormadeblooms/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						        <li><a target="_blank" href="https://www.instagram.com/taylormadeblooms/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						        <li><a href="mailto:helen@taylormadeblooms.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+                                <!--li onclick="shownumber()"><a id="A2" href="#" class="icon fa-mobile" ><span class="label" >contact</span></a></li-->
+					        </ul>
+						</div>
+					</section>
+
+			</div>
+
+            <div id="dialog" title="Telephone" class="hidden">
+                <p>07732591800</p>
+            </div>
+
+		    <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js?v2"></script>
+            <!-- bxSlider Javascript file -->
+            <script src="assets/js/jquery.bxslider.min.js"></script>
+            <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+            <script src="assets/js/gallery.js"></script>
+            <script>
+                $(document).ready(function () {
+                    $.ajax({
+                        url: 'gallerydata/funerals.xml?v1',
+                        dataType: "xml",
+                        success: parse,
+                        error: function () { alert("Error: Something went wrong"); }
+                    });
+                });
+            </script> 
+            <script src="assets/js/google.js"></script>
+			<script>
+			$( document ).ready(function() {
+				addMenu(4);
+			});
+			</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+home page - select pics
+Top of page
+white background logo in the middle
+pic of Helen in a Circle
+
+Gallary
+8 pics (select) click will start Gallary Viewer
+
+couples 
+1 main pic per couple
+under main pic will some text
+	Location
+	Couples Name
+	Date
+	click loads gallary of couples pic
+
+
+testimonials
+	blah de blah
+
+
+about me
+
+contact - sends email
+
+Helen to provide me with details

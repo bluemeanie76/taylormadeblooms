@@ -1,0 +1,26 @@
+theflowerjam.com
+
+
+
+------------------------------------------------------------------------
+Home Page
+My Work			- Select list of floral arrangements (pics)
+Weddings 		- See Spotlight for Layout
+	Theme 	
+		- Pic and Heading
+	Details
+		- Some Test
+	Gallary
+		- 6 Pictures
+
+	Repeat for each wedding.
+
+About
+Instagram	 - Select number of instagram
+Contact		 - Some txt and a Form to send Email to with Answers
+Pricing		 - Basic starter prices.
+Terms		 - 
+Payment		 - As is now
+-------------------------------------------------------------------------
+		
+	
